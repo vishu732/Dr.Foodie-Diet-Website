@@ -1,51 +1,52 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Comfortaa', cursive;
 }
+
 body {
   background-color: antiquewhite;
 }
 
-.navbar{
+.navbar {
   width: 1200px;
   height: 75px;
   margin: auto;
 }
 
-.icon{
+.icon {
   width: 200px;
   float: left;
   height: 70px;
 }
 
-.logo{
+.logo {
   float: left;
   margin-top: 5px
 }
 
-.menu{
+.menu {
   width: 400px;
   float: left;
   height: 70px;
   margin-left: 7.5%;
 }
 
-ul{
+ul {
   float: left;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-ul li{
+ul li {
   list-style: none;
   margin-left: 62px;
   margin-top: 27px;
   font-size: 14px;
 }
 
-ul li a{
+ul li a {
   text-decoration: none;
   color: #0d0d0d;
   font-family: Arial;
@@ -53,12 +54,12 @@ ul li a{
   transition: 0.25s ease-in-out;
 }
 
-ul li a:hover{
+ul li a:hover {
   color: #ff7200;
 }
 
 
-    /* .pageBody {
+/* .pageBody {
     
       width: 100%;
       height: 100%;
@@ -166,104 +167,60 @@ ul li a:hover{
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;  }
   } */
-.bannerPara{
+.bannerPara {
   font-size: 20px;
 }
-  .banner {
-    background-color: #dc3545;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    align-items: center;
-    justify-content: center;
-  }
 
-  .bannerImg {
-    margin-left: 6.5%;
-  }
+.banner {
+  background-color: #dc3545;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: center;
+}
 
-  .bannerTagline {
-    text-align: center;
-    float: right;
-    margin-top: -21.5%;
-    margin-right: 5%;
-    font-size: 21px;
-  }
-  #bannerLine1 {
-    color: #ffbf1e;
-  }
-  #bannerLine2 {
-    color: white;
-  }
+.bannerImg {
+  margin-left: 6.5%;
+}
 
-  .bannerButton {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 0px;
-    border-radius: 4px;
-    font-size: 18px;
-    color: #dc3545;
-    background-color: white;
-    text-decoration: none;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  }
-  .bannerButton:hover {
-    background-color: white;
-    color: black;
-  }
+.bannerTagline {
+  text-align: center;
+  float: right;
+  margin-top: -21.5%;
+  margin-right: 5%;
+  font-size: 21px;
+}
 
-  .mealFormCard {
-    background-color: white;
-    width: 250px;
-    height: 250px;
-    padding: 45px;
-    padding-left: 45px;
-    padding-right: 45px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    text-align: left;
-    font-size: 18px;
-  }
+#bannerLine1 {
+  color: #ffbf1e;
+}
 
-  .cardText {
-    color: #eca900;
-  }
+#bannerLine2 {
+  color: white;
+}
 
-  #age {
-    width: 100%;
-    height: 35px;
-    padding: 5px;
-    font-size: 15px;
-  }
+.bannerButton {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #dc3545;
+  background-color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 
-  .cardGender {
-    line-height: 1.75;
-  }
-  .cardAge {
-    line-height: 1.75;
-  }
-  .cardSubmit{
-    line-height: 5;
-    text-align: center;
-  }
+.bannerButton:hover {
+  background-color: white;
+  color: black;
+}
 
-  .mealFormButton {
-    width: 105%;
-    height: 40px;
-    border: 0px;
-    background-color: #eca900;
-    border-radius: 4px;
-    font-size: 17px;
-  }
-
-  .mealFormButton:hover{
-    color: white;
-  }
-
-  .bannerPara {
-    background-color: white;
-    padding: 10px;
-  }
+.bannerPara {
+  background-color: white;
+  padding: 10px;
+}
