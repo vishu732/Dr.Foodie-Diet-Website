@@ -223,10 +223,11 @@ ul li a:hover {
 .grid {
   display: grid;
   width: 100em;
-  height: 40em;
+  height: 20em;
   grid-gap: 4rem;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 0.3fr));
   align-items: start;
+  margin-left: 30px;
 }
 
 .grid-item {
@@ -245,8 +246,8 @@ ul li a:hover {
 
 .card-img {
   display: block;
-  width: 100%;
-  height: 20rem;
+  width: 20%;
+  height: 10rem;
   object-fit: cover;
 }
 
@@ -255,7 +256,7 @@ ul li a:hover {
 }
 
 .card-header {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: 300;
   color: O#0d0d0d;
   margin-bottom: 1. 5rem;
@@ -273,12 +274,12 @@ ul li a:hover {
   display: block;
   width: 100%;
   padding: 1.5rem;
-  font-size: 2rem;
+  font-size: 1.3rem;
   text-align: center;
   color: #3363ff;
   background-color: #d8e0fd;
   border: none;
-  border-radius: 0.4rem;
+  border-radius: 0.2rem;
   transition: 0.2s;
   cursor: pointer;
   letter-spacing: 0.1rem;
