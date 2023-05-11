@@ -1,0 +1,637 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./food.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>Dr.Foodie - Food Nutrients</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <a href="./index.html"> <img src="./images/logo1.png" class="logo" alt="" width="230" height="75"></a>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./food.html">FOOD</a></li>
+                <li><a href="diet.html">DIET</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <h2>Food Nutrients</h2><br>
+    <p class="info"><b>Nutrients are essential substances that are required by our bodies to function properly. 
+      They provide the energy we need to carry out daily activities, help to maintain and repair our tissues, and 
+      support the growth and development of our bodies. Nutrients are found in a wide range of foods,
+      and it is important to eat a balanced diet that contains all of the necessary nutrients.
+      <br>
+      There are six main types of nutrients: carbohydrates, proteins, fats, vitamins, minerals and water  ::</b></p>
+    <br>
+    
+    <div class="tab">
+      <button class="tablinks" onclick="openNutrients(event, 'Protein')" id="defaultOpen">Protein</button>
+      <button class="tablinks" onclick="openNutrients(event, 'Carbohydrates')">Carbohydrates</button>
+      <button class="tablinks" onclick="openNutrients(event, 'Fats')">Fats</button>
+      <button class="tablinks" onclick="openNutrients(event, 'Vitamins')">Vitamins</button>
+      <button class="tablinks" onclick="openNutrients(event, 'Minerals')">Minerals</button>
+    </div>
+    
+    <div id="Protein" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      <br>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p1_egg.avif" alt="egg-pic" width="300px" height="250px">
+            <h3>Eggs</h3>
+            <br>
+            <p>One large egg (50 grams) provides <b>6.3</b> grams of protein.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p2_almonds.avif" alt="almonds-pic" width="300px" height="250px">
+            <h3>Almonds</h3>
+            <br>
+            <p>One ounce (28.35 grams) of almonds provides <b>5</b> grams of protein.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p3_chicken.jpg" alt="chicken-pic" width="300px" height="250px">
+            <h3>Chicken breast</h3>
+            <br>
+            <p>One half of a chicken breast (86 grams) provides <b>26.7</b> grams of protein.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p9_cheese.jpg" alt="cheese-pic" width="300px" height="250px">
+            <h3>Cottage cheese</h3>
+            <br>
+            <p>One cup (226 grams) of cottage cheese provides <b>28</b> grams of protein.</p> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p4_milk.avif" alt="milk-pic" width="300px" height="250px">
+            <h3>Milk</h3>
+            <br>
+            <p>One cup (246 mL) of dairy milk provides <b>8.32</b> grams of protein.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p5_fish.avif" alt="fish-pic" width="300px" height="250px">
+            <h3>Fish</h3>
+            <br>
+            <p>Half a salmon fillet (100 grams) provides <b>22</b> grams of protein.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p6_powder.jpg" alt="powder-pic" width="300px" height="250px">
+            <h3>Protein powders</h3>
+            <br>
+            <p><b>16.6</b> grams of protein per scoop (28.6 grams).</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p7_bread.avif" alt="Bread-pic" width="300px" height="250px">
+            <h3>Ezekiel bread</h3>
+            <br>
+            <p>One slice (60 grams) of Ezekiel bread provides <b>6</b> grams of protein.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p8_seeds.avif" alt="seeds-pic" width="300px" height="250px">
+            <h3>Pumpkin seeds</h3>
+            <br>
+            <p>A 1/4 cup (29.5 grams) of pumpkin seeds provides <b>8.8</b> grams of protein.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p10_peanuts.avif" alt="peanuts-pic" width="300px" height="250px">
+            <h3>Peanuts</h3>
+            <br>
+            <p>A 1-ounce (28.35-gram) of peanuts provides <b>7.31</b> grams of protein.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p12_peanut-butter.avif" alt="peanut-butter-pic" width="300px" height="250px">
+            <h3>Peanut butter</h3>
+            <br>
+            <p>A 2-tablespoon (32-gram) of peanut butter provides <b>7.2</b> grams of protein.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p11_soybeans.avif" alt="soybeans-pic" width="300px" height="250px">
+            <h3>Soybeans</h3>
+            <br>
+            <p>A cup (186 g) serving of Soybeans provides <b>68</b> grams of proteins.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <br>
+    
+    <div id="Carbohydrates" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span><br><br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="Fats" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span><br><br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Vitamins" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span><br><br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Minerals" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span><br><br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+      <br> 
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 1</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 2</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 3</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="" width="300px" height="250px">
+            <h3>Card 4</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<script src="food.js"></script> 
+
+</body>
+</html>
